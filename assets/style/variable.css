@@ -1,0 +1,11 @@
+:root {
+    --color-blue-main : #058258;
+    --bg-gradient-btn : linear-gradient(90deg, #00C194 0%, #98DE5B 100%);
+    --bg-btn : #66EFC6;
+    --color-blue-02 : #6C93A7;
+    --color-blue-03 : #75ABC6;
+    --color-blue-04 : #356CD6;
+    --color-orange : #F5AC3D;
+    --color-red-light: #EF8686;
+    --text-color : #333333;
+}

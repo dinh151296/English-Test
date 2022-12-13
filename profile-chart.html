@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile chart</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/style/bootstrap.min.css" type="text/css">
+    <!-- bootstrap -->
+
+    <link rel="stylesheet" href="assets/style/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/style/responsive.css" type="text/css">
+    
+</head> 
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__inner d-flex align-items-center justify-content-between">
+                <div class="header__logo">
+                    <a href="">
+                        <img src="./assets/image/logo-header.png" alt="epro">
+                    </a>
+                </div>
+                <div class="header__content d-flex align-items-center justify-content-between">
+                    <div class="header__search">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm đề thi">
+                        <button type="button">
+                            <img src="./assets/image/search.svg" alt="">
+                        </button>
+                    </div>
+                    <nav class="header__nav  d-flex align-items-center justify-content-between">
+                        <ul class="main-menu d-flex align-items-center">
+                            <li>
+                                <a href="">Đề thi</a>
+                            </li>
+                            <li>
+                                <a href="">Tài liệu</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức</a>
+                            </li>
+                        </ul>
+                        <div class="header__login">
+                            <button class="my__class-bt btn btn-site btn--orange">Lớp học của tôi</button>
+                            <div class="header__avatar">
+                                <img src="./assets/image/avatar.png" alt="">
+                                <div class="avatar__icon">
+                                    <img src="./assets/image/icon-avatar-ab.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile-hambuger__close">
+                            <div class="hamburger__inner">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="hamburger-box">
+                        <div class="hamburger__inner">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="header-menu__profile">
+                    <li>
+                        <a href="#">
+                            <svg   width="26" height="26" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                            </svg>
+                           Trang cá nhân
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg   width="26" height="26" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                                <path d="M7 12h14l-3 -3m0 6l3 -3" />
+                              </svg>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content__page page-profile__chart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumb__site">
+                            <ul>
+                                <li>
+                                    <span>Trang chủ</span>
+                                </li>
+                                <li>
+                                    <span>Profile</span>
+                                </li>
+                                <li class="current-page">
+                                    <span>Biểu đồ</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="chart-block__item d-flex">
+                            <div class="wrap-chart__option">
+                                <h4>Chú thích</h4>
+                                <div class="chart__option --listen">
+                                    Nghe
+                                </div>
+                                <div class="chart__option --read">
+                                    Đọc
+                                </div>
+                                <div class="chart__option --write">
+                                    Viết 
+                                </div>
+                                <div class="chart__option --speak">
+                                    Nói
+                                </div>
+                            </div>
+                            <div class="wrap-chart__inner">
+                                <h3>Điểm kiểm tra 4 kỹ năng</h3>
+                                <div class="wrap-chart__scroll">
+                                    <img src="./assets/image/chart-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-block__item d-flex">
+                            <div class="wrap-chart__option">
+                                <h4>Chú thích</h4>
+                                <div class="chart__option --listen">
+                                    Nghe
+                                </div>
+                               
+                            </div>
+                            <div class="wrap-chart__inner">
+                                <h3>Điểm kiểm tra Nghe</h3>
+                                <div class="wrap-chart__scroll">
+                                    <img src="./assets/image/chart-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-block__item d-flex">
+                            <div class="wrap-chart__option">
+                                <h4>Chú thích</h4>
+                                <div class="chart__option --read">
+                                    Đọc
+                                </div>
+                               
+                            </div>
+                            <div class="wrap-chart__inner">
+                                <h3>Điểm kiểm tra Đọc</h3>
+                                <div class="wrap-chart__scroll">
+                                    <img src="./assets/image/chart-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-block__item d-flex">
+                            <div class="wrap-chart__option">
+                                <h4>Chú thích</h4>
+                                <div class="chart__option --write">
+                                    Viết
+                                </div>
+                               
+                            </div>
+                            <div class="wrap-chart__inner">
+                                <h3>Điểm kiểm tra Viết</h3>
+                                <div class="wrap-chart__scroll">
+                                    <img src="./assets/image/chart-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-block__item d-flex">
+                            <div class="wrap-chart__option">
+                                <h4>Chú thích</h4>
+                                <div class="chart__option --speak">
+                                   Nói
+                                </div>
+                               
+                            </div>
+                            <div class="wrap-chart__inner">
+                                <h3>Điểm kiểm tra Nói</h3>
+                                <div class="wrap-chart__scroll">
+                                    <img src="./assets/image/chart-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-header">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="footer__logo">
+                        <a href="">
+                            <img src="./assets/image/logo-footer.png" alt="Epro">
+                        </a>
+                        <h2 class="footer__block-title">GIỚI THIỆU</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non neque pharetra est nulla accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non neque pharetra est nulla accumsan.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-9">
+                    <div class="footer__right d-flex">
+                        <div class="footer__block">
+                            <h2 class="footer__block-title">EPRO ENGLISH ACADEMY</h2>
+                            <ul class="contact">
+                                <li>Cơ sở 1: KĐT Moncity, Mỹ Đình II, Nam Từ Liêm, HN</li>
+                                <li>Cơ sở 2: Tòa nhà Golden Place, Mễ Trì, Nam Từ Liêm, HN</li>
+                                <li>Cơ sở 3: Số 35 ngõ 191 Khâm Thiên, Đống Đa, HN</li>
+                                <li>Cơ sở 4: Số 503, tổ 20 Xuân Khanh, Sơn Tây, HN</li>
+                            </ul>
+                        </div>
+                        <div class="footer__block">
+                            <h2 class="footer__block-title">THÔNG TIN LIÊN HỆ:</h2>
+                            <ul class="contact">
+                                <li>
+                                    <a href="tel:0962.12.66.12">Hotline: 0962.12.66.12</a>
+                                </li>
+                                <li>
+                                    Email: epro.edu.vn@gmail.com
+                                </li>
+                                <li><a href="">Website: www.epro.edu.vn</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__block">
+                            <h2 class="footer__block-title">VỀ EPRO</h2>
+                            <ul class="contact footer__menu">
+                                <li>
+                                    <a href="">Khóa học</a>
+                                </li>
+                                <li><a href="">Lịch khai giảng</a></li>
+                                <li><a href="">Tài liệu</a></li>
+                                <li><a href="">Tin tức</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__block">
+                            <h2 class="footer__block-title">LỐI TẮT</h2>
+                            <ul class="contact footer__menu">
+                                <li>
+                                    <a href="">Đề thi Ielts</a>
+                                </li>
+                                <li><a href="">Skill test</a></li>
+                                <li><a href="">Bài tập bổ trợ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__block social">
+                            <ul class="social__list d-flex align-items-center">
+                                <li>
+                                    <a href="">
+                                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_1017)">
+                                            <path d="M30.912 15.456C30.912 6.91988 23.9921 0 15.456 0C6.91988 0 0 6.91988 0 15.456C0 23.1704 5.65201 29.5647 13.041 30.7242V19.9237H9.11662V15.456H13.041V12.0509C13.041 8.17719 15.3485 6.0375 18.879 6.0375C20.5695 6.0375 22.3387 6.33938 22.3387 6.33938V10.143H20.3898C18.4699 10.143 17.871 11.3345 17.871 12.558V15.456H22.1576L21.4724 19.9237H17.871V30.7242C25.26 29.5647 30.912 23.1704 30.912 15.456Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_1017">
+                                            <rect width="30.912" height="30.912" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_1014)">
+                                            <path d="M22.7816 0H17.572V21.056C17.572 23.5648 15.5683 25.6256 13.0749 25.6256C10.5814 25.6256 8.57772 23.5648 8.57772 21.056C8.57772 18.592 10.5369 16.576 12.9413 16.4864V11.2C7.64267 11.2896 3.36816 15.6352 3.36816 21.056C3.36816 26.5216 7.73172 30.912 13.1194 30.912C18.507 30.912 22.8706 26.4768 22.8706 21.056V10.2592C24.8298 11.6928 27.2341 12.544 29.7722 12.5888V7.3024C25.8539 7.168 22.7816 3.9424 22.7816 0Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_1014">
+                                            <rect width="30.912" height="30.912" fill="white" transform="translate(0.791992)"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg width="32" height="23" viewBox="0 0 32 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M31.1881 5.27366C31.1881 5.27366 30.8862 3.14242 29.9564 2.20661C28.7791 0.974957 27.4629 0.968919 26.8592 0.896469C22.5363 0.582519 16.046 0.58252 16.046 0.58252H16.0339C16.0339 0.58252 9.54363 0.582519 5.22078 0.896469C4.61703 0.968919 3.30086 0.974957 2.12355 2.20661C1.19377 3.14242 0.897934 5.27366 0.897934 5.27366C0.897934 5.27366 0.583984 7.77922 0.583984 10.2787V12.6213C0.583984 15.1208 0.891897 17.6264 0.891897 17.6264C0.891897 17.6264 1.19377 19.7576 2.11751 20.6934C3.29482 21.9251 4.84042 21.8828 5.5287 22.0156C8.00407 22.2511 16.04 22.3236 16.04 22.3236C16.04 22.3236 22.5363 22.3115 26.8592 22.0036C27.4629 21.9311 28.7791 21.9251 29.9564 20.6934C30.8862 19.7576 31.1881 17.6264 31.1881 17.6264C31.1881 17.6264 31.496 15.1269 31.496 12.6213V10.2787C31.496 7.77922 31.1881 5.27366 31.1881 5.27366ZM12.8461 15.465V6.77699L21.196 11.1361L12.8461 15.465Z" fill="white"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_1024)">
+                                            <path d="M2.3291 0.608716C3.28584 0.433556 4.0406 0.179047 4.7984 0.176053C11.7294 0.144115 18.661 0.144115 25.5931 0.176053C26.3524 0.176053 27.1117 0.438045 28.0092 0.607217C27.7723 0.906636 27.6827 1.04886 27.5688 1.16264C24.1863 4.52911 20.8013 7.89408 17.4137 11.2576C16.1168 12.5421 14.2929 12.5645 13.0097 11.301C9.57754 7.90755 6.15454 4.50915 2.74065 1.10575C2.66472 1.01892 2.59183 0.920111 2.3291 0.608716Z" fill="white"/>
+                                            <path d="M27.8191 21.1578C27.0598 21.2941 26.3081 21.5471 25.5503 21.5501C18.6456 21.58 11.7398 21.58 4.83307 21.5501C4.07375 21.5501 3.31443 21.2971 2.56423 21.1623L2.5293 20.9153L11.9448 13.099C14.5994 14.5601 16.1621 14.5616 18.4051 13.069L27.8206 20.8779L27.8191 21.1578Z" fill="white"/>
+                                            <path d="M0.825549 19.511C0.673686 18.743 0.412478 17.975 0.404884 17.2055C0.364387 12.9887 0.364387 8.77037 0.404884 4.55056C0.404884 3.78105 0.663053 3.01454 0.808842 2.2106L10.5828 11.6677C7.39364 14.3116 4.25918 16.9211 1.11712 19.529L0.825549 19.511Z" fill="white"/>
+                                            <path d="M19.8071 11.6767L29.5446 2.31689C29.6798 2.93969 29.9607 3.64332 29.9683 4.34995C30.0088 8.69252 30.0088 13.0341 29.9683 17.3747C29.9607 18.0903 29.6646 18.8029 29.4732 19.6937L19.8071 11.6767Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_1_1024">
+                                            <rect width="29.624" height="21.4204" fill="white" transform="translate(0.375977 0.1521)"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
